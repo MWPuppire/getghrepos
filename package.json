@@ -1,0 +1,23 @@
+{
+  "name": "getghrepos",
+  "version": "1.0.0",
+  "author": "MWPuppire",
+  "license": "MIT",
+  "description": "Lists all of the GitHub repositories made by a certain user.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mwpuppire/getghrepos.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mwpuppire/getghrepos/issues"
+  },
+  "dependencies": {
+    "sync-request": "^6.0.0",
+    "minimist": "^1.2.0",
+    "readline-sync": "^1.4.9",
+    "yn": "^2.0.0"
+  },
+  "bin": {
+    "getghrepos": "./index.js"
+  }
+}
